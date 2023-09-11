@@ -7,3 +7,37 @@
 body {
     background-color: black;
 }
+
+
+/*Smartphone Portrait - celular em pé */
+
+/*Smartphone Landscape - celular deitado */
+@media (min-width: 576px) {
+    body {
+        background-color: #0ff;
+    } 
+}
+
+
+/*Tablet Portrait - tablet em pé */
+@media (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+
+/*Tablet Landscape - tablet deitado/monitor antigo */
+@media (min-width: 992px) {
+    body {
+        background-color: white;
+    }
+}
+
+
+/*Desktop */
+@media (min-width: 1200px) {
+    body {
+        background-color: white;
+    }
+}
