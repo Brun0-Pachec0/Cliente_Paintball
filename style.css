@@ -101,7 +101,7 @@ nav ul li a {
 
 main {
     height: 75vh;
-    background: url(./img/imagem\ paintball\ 1\ fosca.jpg);
+    background: url(./img/banner\ smartphone\ portrait.jpg);
     background-size: cover;
     color: #fff;
     display: flex;
@@ -131,6 +131,12 @@ main h1, main h2 {
     /* Layout */
     .container {
         max-width: 540px;
+    }
+
+    main {
+        height: 75vh;
+        background: url(./img/imagem\ paintball\ 1\ fosca.jpg);
+        background-size: cover;
     }
 
 
