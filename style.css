@@ -17,15 +17,22 @@
 
 body {
     background-color: black;
-    color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
 }
 
+
 /* Layout */
 .container {
     margin: 0 auto;
-    background-color: #7f0;
+    background-color: #dcdcdc;
+}
+
+/* Topo do site */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
 
 /*Smartphone Portrait - celular em pé */
