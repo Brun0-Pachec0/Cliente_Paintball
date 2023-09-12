@@ -31,6 +31,11 @@ body {
     justify-content: space-between;
 }
 
+.flex3 {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .Botao {
     text-decoration: none;
@@ -59,8 +64,8 @@ header {
 }
 
 #logo img {
-    width: 128px;
-    height: 104px;
+    width: 218px;
+    height: 177px;
 }
 
 #check {
@@ -151,8 +156,25 @@ main h1, main h2 {
     margin-bottom: 30px;
 }
 
+/* One Page */
 
+#onepage {
+    padding: 50px 10px;
+}
 
+#onepage h2 {
+    margin-bottom: 10px;
+}
+
+#onepage p {
+    margin-bottom: 25px;
+}
+
+#video iframe {
+    width: 340px;
+    height: 191px;
+    border: 0;
+}
 
 /*Smartphone Landscape - celular deitado */
 @media (min-width: 576px) {
@@ -165,6 +187,12 @@ main h1, main h2 {
         height: 75vh;
         background: url(./img/imagem\ paintball\ 1\ fosca.jpg);
         background-size: cover;
+    }
+
+    /* One Page */
+    #video iframe {
+        width: 560px;
+        height: 315px;
     }
 
 
@@ -257,7 +285,7 @@ main h1, main h2 {
     }
 
     nav ul li a:hover {
-        color: white;
+        color: rgb(255, 0, 0);
         transition: 0.2s;
     }
 
@@ -266,6 +294,12 @@ main h1, main h2 {
         display: inline;
         margin-right: 20px;
         margin-top: 47px;
+    }
+
+    /* One Page */
+    .flex3 {
+        flex-direction: row;
+        align-items: center;
     }
 
 }
