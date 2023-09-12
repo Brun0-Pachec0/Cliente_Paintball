@@ -70,7 +70,10 @@ header {
 
 label {
     font-size: 3em;
-    padding-right: 15px;
+    position: fixed;
+    top: -4px;
+    right: 15px;
+    color: rgba(0 ,0 ,0 ,0.5);
 }
 
 nav ul {
@@ -127,7 +130,10 @@ main h1, main h2 {
 /* Sobre */
 #sobre {
     padding: 50px 0px;
-    background-color: #747474;
+    background: url(./img/teste\ background\ parallax.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: #747474; */
 }
 
 #textoSobre {
@@ -200,7 +206,7 @@ main h1, main h2 {
     main {
         height: 70vh;
     }
-    
+
     .flex2 {
         display: flex;
         align-items: center;
