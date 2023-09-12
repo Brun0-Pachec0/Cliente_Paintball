@@ -31,6 +31,7 @@ body {
     justify-content: space-between;
 }
 
+
 .Botao {
     text-decoration: none;
     color: #fff;
@@ -123,6 +124,27 @@ main h1, main h2 {
     text-shadow: #000 0.02em 0.02em 0.02em;
 }
 
+/* Sobre */
+#sobre {
+    padding: 50px 0px;
+    background-color: #747474;
+}
+
+#textoSobre {
+    color: white;
+    padding: 0px 10px;
+}
+
+#textoSobre h2 {
+    margin-bottom: 10px;
+}
+
+#destaqueSobre {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -178,6 +200,11 @@ main h1, main h2 {
     main {
         height: 70vh;
     }
+    
+    .flex2 {
+        display: flex;
+        align-items: center;
+    }
 }
 
 
@@ -227,4 +254,12 @@ main h1, main h2 {
         color: white;
         transition: 0.2s;
     }
+
+    /* Sobre */
+    #destaqueSobre {
+        display: inline;
+        margin-right: 20px;
+        margin-top: 47px;
+    }
+
 }
