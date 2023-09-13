@@ -56,6 +56,80 @@ body {
     bottom: 10px;
 }
 
+ /* Slide de Imagens */
+   /* body */
+   #imagens {
+    background: url(./img/teste\ background\ parallax.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 0 35px;
+}
+
+.textofoto {
+    text-align: center;
+    color: #fff;
+}
+
+.fotos {
+    max-width: 1200px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.fotos i {
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.fotos i:first-child {
+    left: -23px;
+    display: none;
+}
+
+.fotos i:last-child {
+    right: -23px;
+}
+
+.fotos .carrosel {
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.carrosel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carrosel.dragging img {
+    pointer-events: none;
+}
+
+.carrosel img {
+    height: 340px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: 100%;
+}
+
+.carrosel img:first-child {
+    margin-left: 0px;
+}
+
 /*Smartphone Portrait - celular em pé */
 
 /* Cabeçalho */
@@ -219,6 +293,9 @@ main h1, main h2 {
     main h2 {
         font-size: 2.5em;
     }
+    .carrosel img {
+        width: 100%;
+    }
 
 }
 
@@ -238,6 +315,12 @@ main h1, main h2 {
     .flex2 {
         display: flex;
         align-items: center;
+    }
+
+    /* Slide Imagens */
+
+    .carrosel img {
+        width: calc(100% / 2);
     }
 }
 
@@ -300,6 +383,10 @@ main h1, main h2 {
     .flex3 {
         flex-direction: row;
         align-items: center;
+    }
+
+    .carrosel img {
+        width: calc(100% / 3);
     }
 
 }
