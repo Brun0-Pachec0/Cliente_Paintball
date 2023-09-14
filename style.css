@@ -123,12 +123,13 @@ body {
     height: 340px;
     object-fit: cover;
     margin-left: 14px;
-    width: 100%;
+    width: calc(100%);
 }
 
 .carrosel img:first-child {
     margin-left: 0px;
 }
+
 
 /*Smartphone Portrait - celular em pé */
 
@@ -250,6 +251,22 @@ main h1, main h2 {
     border: 0;
 }
 
+
+/* PREÇOS */
+
+.tituloprecos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+.textosgeral {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.1em;
+}
+
 /*Smartphone Landscape - celular deitado */
 @media (min-width: 576px) {
     /* Layout */
@@ -294,7 +311,7 @@ main h1, main h2 {
         font-size: 2.5em;
     }
     .carrosel img {
-        width: 100%;
+        width: calc(100% / 2);
     }
 
 }
@@ -321,6 +338,24 @@ main h1, main h2 {
 
     .carrosel img {
         width: calc(100% / 2);
+    }
+        
+    /* PREÇOS */
+
+    .tituloprecos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 1em;
+    }
+
+    .textosgeral {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 1.1em;
     }
 }
 
