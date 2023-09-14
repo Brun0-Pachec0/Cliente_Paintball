@@ -265,6 +265,7 @@ main h1, main h2 {
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 1.1em;
+    text-align: center;
 }
 
 /*Smartphone Landscape - celular deitado */
@@ -356,6 +357,8 @@ main h1, main h2 {
     justify-content: center;
     margin-bottom: 50px;
     font-size: 1.1em;
+    text-align: left;
+
     }
 }
 
