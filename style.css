@@ -36,6 +36,12 @@ body {
     flex-direction: column;
 }
 
+.flex5 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
 
 .Botao {
     text-decoration: none;
@@ -253,7 +259,6 @@ main h1, main h2 {
 
 
 /* PREÇOS */
-
 .tituloprecos {
     display: flex;
     justify-content: center;
@@ -267,6 +272,56 @@ main h1, main h2 {
     font-size: 1.1em;
     text-align: center;
 }
+
+
+/* Rodapé */
+address {
+    padding: 35px 10px 50px 10px;
+    background-color: #777777;
+    color: #fff;
+}
+
+address a {
+    text-decoration: none;
+    color: #fff;
+}
+
+address img {
+    padding-top: 20px;
+}
+
+#iconeLocal {
+    display: none;
+}
+
+#email {
+    margin: 20px 0px 15px 0px;
+}
+
+#googleMaps {
+    display: none;
+}
+
+.funcionamento span {
+    font-weight: 400;
+}
+
+#whatsapp {
+    width: 35px;
+    height: 35px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #343538;
+    color: #fff;
+    text-align: center;
+}
+
+#social {
+    margin-bottom: 25px;
+}
+
 
 /*Smartphone Landscape - celular deitado */
 @media (min-width: 576px) {
@@ -288,6 +343,16 @@ main h1, main h2 {
     }
 
 
+    /* Rodapé */
+    .flex5 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #social {
+        margin: 0;
+    }
 }
 
 
@@ -427,4 +492,33 @@ main h1, main h2 {
         width: calc(100% / 3);
     }
 
+
+    /* Rodapé */
+
+    
+    .flex6 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    }
+
+    #iconeLocal {
+        display: inline;
+    }
+
+    #iconeMapa {
+        display: none;
+    }
+
+    #googleMaps {
+        display: inline;
+    }
+
+    .funcionamento {
+        text-align: left;
+        display: flex;
+        padding-left: 360px;
+
+        margin-top: 15px;
+    }
 }
