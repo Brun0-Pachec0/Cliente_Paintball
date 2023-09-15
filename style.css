@@ -137,6 +137,14 @@ body {
 }
 
 
+/* Endereço */
+
+#endereco span {
+    font-style: italic;
+    font-weight: 200;
+}
+
+
 /*Smartphone Portrait - celular em pé */
 
 /* Cabeçalho */
