@@ -303,7 +303,7 @@ address img {
 }
 
 #email {
-    margin: 20px 0px 15px 0px;
+    margin: 20px 0px 30px 0px;
 }
 
 #googleMaps {
@@ -522,11 +522,17 @@ footer {
         display: inline;
     }
 
+    #googleMaps iframe {
+        margin-top: 120px;
+    }
+
     .funcionamento {
         text-align: left;
         display: flex;
-        padding-left: 360px;
+        margin-left: 356px;
+    }
 
-        margin-top: 15px;
+    #email {
+        margin-bottom: 0px;
     }
 }
